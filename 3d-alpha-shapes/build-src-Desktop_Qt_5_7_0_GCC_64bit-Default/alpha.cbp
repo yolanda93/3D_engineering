@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="alpha" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\CGAL\;CMake Files\..\..\..\..\Qt5.7.0\;CMake Files\..\..\..\..\Qt5.7.0\5.7\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Script\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Svg\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alpha">
+         <Option output="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/alpha" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_SCRIPT_LIB" />
+            <Add option="-DQT_SVG_LIB" />
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DBOOST_NO_CXX11_TEMPLATE_ALIASES" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtOpenGL" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtScript" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtSvg" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtXml" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/." />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/./include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 alpha" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alpha/fast">
+         <Option output="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/alpha" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_SCRIPT_LIB" />
+            <Add option="-DQT_SVG_LIB" />
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DBOOST_NO_CXX11_TEMPLATE_ALIASES" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtCore" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtGui" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtOpenGL" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtScript" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtSvg" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtWidgets" />
+            <Add directory="/home/yolanda/Qt5.7.0/5.7/gcc_64/include/QtXml" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/." />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/./include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 alpha/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/alpha.qrc">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/alpha.ui">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/main.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/options.ui">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/scene.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/scene.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/viewer.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/viewer.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/window.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/window.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/alpha.qrc">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/UseCGAL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_VersionUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_Common.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_SetupFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/FindOpenGL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../../../usr/lib/CGAL/FindQGLViewer.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Script/Qt5ScriptConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Script\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Script/Qt5ScriptConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Script\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Svg/Qt5Svg_QSvgPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/src/../../../../Qt5.7.0/5.7/gcc_64/lib/cmake/Qt5Svg/Qt5Svg_QSvgIconPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\Qt5.7.0\5.7\gcc_64\lib\cmake\Qt5Svg\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
