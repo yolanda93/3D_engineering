@@ -1,4 +1,5 @@
 # Temporal files
 ~*
 # Build folders
-/*/build*
+./*/build*
+./*/src/CMakeLists.txt.user

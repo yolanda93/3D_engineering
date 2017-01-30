@@ -1,1 +1,0 @@
-/home/yolanda/workspace/3D_engineering/3d-alpha-shapes/build-src-Desktop_Qt_5_7_0_GCC_64bit-Default/CMakeFiles/alpha.dir

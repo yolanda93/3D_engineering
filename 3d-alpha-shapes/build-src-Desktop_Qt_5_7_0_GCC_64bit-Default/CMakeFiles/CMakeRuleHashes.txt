@@ -1,7 +1,0 @@
-# Hashes of file build rules.
-ff34b4ddc60a2177e41e28ffa97aebc5 moc_options.cxx
-85955aa08ef659f629fad7bad95a5887 moc_viewer.cxx
-fa4ccddc8e80f780ac3bb5dbcdfa92dd moc_window.cxx
-8a09dfe6a09542c18b197ef021ed1be4 qrc_alpha.cpp
-085edeb313c71b1094e55b46903c43c7 ui_alpha.h
-a3bfb65809216d84c39e633f75bc6d70 ui_options.h
