@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="alpha" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\CGAL\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alpha">
+         <Option output="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/alpha" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/." />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/./include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 alpha" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alpha/fast">
+         <Option output="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/alpha" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DCGAL_USE_MPFR" />
+            <Add option="-DCGAL_USE_GMP" />
+            <Add option="-DQT_NO_DEBUG" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/." />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/./include" />
+            <Add directory="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt4" />
+            <Add directory="/usr/include/qt4/QtCore" />
+            <Add directory="/usr/include/qt4/QtGui" />
+            <Add directory="/usr/include/qt4/QtOpenGL" />
+            <Add directory="/usr/include/qt4/QtXml" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 alpha/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/build-linux-Desktop_Qt_5_7_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/alpha.qrc">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/alpha.ui">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/GCoptimization.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/GCoptimization.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/LinkedBlockList.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/LinkedBlockList.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/graph.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/graph.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/gco/maxflow.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/main.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/options.ui">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/scene.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/scene.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/viewer.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/viewer.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/window.cpp">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/window.h">
+         <Option target="alpha"/>
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/alpha.qrc">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGALConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/UseCGAL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_VersionUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_Common.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_Macros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_SetupFlags.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/CGAL_TweakFindBoost.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/FindOpenGL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/FindOpenGL.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+      <Unit filename="/home/yolanda/workspace/3D_engineering/TP_mesh_segmentation/linux/../../../../../../usr/lib/CGAL/FindQGLViewer.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\CGAL\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
