@@ -5,6 +5,7 @@
 #include <CGAL/Delaunay_triangulation_3.h>
 #include <CGAL/Bbox_3.h>
 #include <CGAL/Timer.h>
+#include <iostream>
 
 #include <QtOpenGL>
 #include <QtOpenGL/qgl.h>
@@ -121,7 +122,7 @@ public:
 		Cell_handle n = c->neighbor(ic);
 
 		// get facet points in right order
-		Point p1, p2, p3;
+		Point p1, p2, p3; //  Points in facet c
 		if ( ic%2 == 1 )
 		{
 			p1 = c->vertex((ic+1)%4)->point(); 
@@ -136,27 +137,39 @@ public:
 		}
 
 		// TO COMPLETE...
+                Point Oc = this->circumcenter(c); // compute circumcenter of c
+                Point On = this->circumcenter(n); // compute circumcenter of n
 
-		// case n is infinite
-		// if ( Dt::is_infinite( n ) )
-		{
-			// compute circumcenter of c
-			Point oc = this->circumcenter(c);
-			if ( CGAL::orientation(p1, p2, p3, oc) == CGAL::POSITIVE) 
-				return true; // TO REPLACE
-			else 
-				return true; // TO REPLACE
-		}
+                FT Rc = CGAL::squared_distance( Oc, p1 ); 
+                FT Rn = CGAL::squared_distance( On, p1 ); 
+                FT Rf = CGAL::squared_distance(p1, CGAL::circumcenter( p1, p2, p3 )); 
 
-		// case c is infinite
-		// if ( Dt::is_infinite( c ) )
+	       // case n is infinite
+	       if ( Dt::is_infinite( n ) )
+	       {
+		if ( CGAL::orientation(p1, p2, p3, Oc) == CGAL::POSITIVE)	
+      		    return alpha > Rf;
+		else 
+	            return alpha > Rc; 
+	       }
 
-		// case both c and n are finite
+	       // case c is infinite
+	       if ( Dt::is_infinite( c ) )
+	       {
+	         if ( orientation(p1, p2, p3, On) == CGAL::NEGATIVE )
+                      return alpha > Rf;
+                 else
+                      return alpha > Rn;
+               }
 
-		return true;
-	}
+	       // case both c and n are finite
+
+               if ( orientation( p1,p2,p3,Oc ) != orientation( p1,p2,p3,On ) )
+                   return alpha < CGAL::max( Rc, Rn ) && alpha > Rf;
+               else
+                   return alpha < CGAL::max( Rc, Rn ) && alpha > CGAL::min( Rc, Rn );
+       }
+
+
 };
-
 #endif // _DT3_
-
-
