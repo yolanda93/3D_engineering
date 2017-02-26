@@ -187,6 +187,7 @@ bool labeling(double beta)
 		//-------------- TO FILL IN (START)---------------------
 		
 		//random :(
+                  f->z()
 		data[index_facet*number_of_class + 0] = (double) rand() / RAND_MAX; //yellow //sol
 		data[index_facet*number_of_class + 1] = (double)rand() / RAND_MAX; //blue //roof
 		data[index_facet*number_of_class + 2] = (double)rand() / RAND_MAX; //facade white
